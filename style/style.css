@@ -113,3 +113,11 @@ section {
         color: pink;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .contact-us iframe {
+        width: auto;
+        height: fit-content;
+    }
+}
