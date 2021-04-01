@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 2%;
+    animation: colorchange 21s ease infinite;
+}
+
+h5 {
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+}
+
+section {
+    margin-bottom: 2%;
+}
+
+.card {
+    border: none;
+    border-radius: 20%;
+    -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+}
+
+.card img {
+    border: none;
+    border-radius: 25%;
+}
+
+.navigation-bar {
+    margin-bottom: 0%;
+}
+
+.decoration-section .card {
+    border-radius: 0%;
+    border: none;
+    -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+}
+
+.decoration-section .card img {
+    border-radius: 0%;
+    border: none;
+    -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+}
+
+.contact-us .card {
+    border-radius: 0%;
+    border: none;
+    -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+}
+
+.contact-us ul {
+    text-align: right;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.contact-us iframe {
+    margin: 0 auto;
+}
+
+.awesome {
+    color: #313131;
+    animation: colorchange 20s infinite alternate;
+}
+
+@keyframes colorchange {
+    0% {
+        color: blue;
+    }
+    10% {
+        color: #8e44ad;
+    }
+    20% {
+        color: #1abc9c;
+    }
+    30% {
+        color: #d35400;
+    }
+    40% {
+        color: blue;
+    }
+    50% {
+        color: #34495e;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: #2980b9;
+    }
+    80% {
+        color: #f1c40f;
+    }
+    90% {
+        color: #2980b9;
+    }
+    100% {
+        color: pink;
+    }
+}
