@@ -19,7 +19,7 @@ h5 {
 }
 
 section {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .card {
@@ -28,6 +28,7 @@ section {
     -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    margin-bottom: 5%;
 }
 
 .card img {
@@ -39,12 +40,25 @@ section {
     margin-bottom: 0%;
 }
 
+.navigation-bar li {
+    text-align: right;
+}
+
+.intro-section img {
+    height: 150vh;
+}
+
+.service-section .card {
+    margin-bottom: 5%;
+}
+
 .decoration-section .card {
     border-radius: 0%;
     border: none;
     -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+    margin-bottom: 5%;
 }
 
 .decoration-section .card img {
@@ -55,11 +69,18 @@ section {
     box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
 }
 
+.why-us-section .card {
+    margin-bottom: 5%;
+}
+
 .offers p {
     text-align: center;
+    border-radius: 0%;
+    border: none;
 }
 
 .contact-us .card {
+    margin-bottom: 5%;
     border-radius: 0%;
     border: none;
     -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
@@ -177,6 +198,9 @@ section {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .intro-section img {
+        height: auto;
+    }
     .contact-us iframe {
         width: auto;
         height: fit-content;
