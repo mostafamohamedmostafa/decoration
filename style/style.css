@@ -70,7 +70,7 @@ section {
 }
 
 .decoration-section img {
-    height: min-content;
+    height: 120vh;
 }
 
 .why-us-section .card {
@@ -202,7 +202,16 @@ section {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    section {
+        margin-bottom: 8%;
+    }
     .intro-section img {
+        height: auto;
+    }
+    .info h2 {
+        font-size: x-large;
+    }
+    .decoration-section img {
         height: auto;
     }
     .contact-us iframe {
