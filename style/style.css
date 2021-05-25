@@ -45,7 +45,7 @@ section {
 }
 
 .intro-section img {
-    height: 150vh;
+    height: 110vh;
 }
 
 .service-section .card {
@@ -67,6 +67,10 @@ section {
     -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
+}
+
+.decoration-section img {
+    height: min-content;
 }
 
 .why-us-section .card {
