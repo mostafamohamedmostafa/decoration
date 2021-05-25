@@ -218,4 +218,11 @@ section {
         width: auto;
         height: fit-content;
     }
+    footer {
+        margin-top: 2%;
+        text-align: center;
+    }
+    footer img {
+        width: 50%;
+    }
 }
