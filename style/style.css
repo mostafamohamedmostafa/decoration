@@ -42,7 +42,7 @@ section {
 
 .card {
     border: none;
-    border-radius: 20%;
+    border-radius: 15%;
     -webkit-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     -moz-box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
     box-shadow: 5px 5px 5px 5px rgb(197, 194, 194);
